@@ -56,7 +56,7 @@
       <h2 class="text-4xl font-semibold text-gray-800 mb-6">Suscríbete para acceder a todo el contenido</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div></div>
-          <a href="venv/sys/container/data/404.html">comprar</a>
+        <div id="paypal-button-container-P-9G162353VH868450EM6UTLDI"></div>
         <div></div>
       </div>
     </div>
@@ -121,6 +121,27 @@
     window.history.back();
     }
   </script>
+
+<script src="https://www.paypal.com/sdk/js?client-id=AYpt3qewItA8r_75UMPpcQt5a_JCCP_6e9wMDFhwuFp3ZWWEvdYKrrvoS8Ua0atdyGg0tzgWVz-8ecIA&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-9G162353VH868450EM6UTLDI'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-9G162353VH868450EM6UTLDI'); // Renders the PayPal button
+</script>
 </body>
 
 </html>
