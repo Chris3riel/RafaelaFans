@@ -1,0 +1,5 @@
+img, canvas {
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+}

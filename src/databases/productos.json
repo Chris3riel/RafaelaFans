@@ -1,0 +1,19 @@
+[
+    { "id": "img1", "type": "image", "src": "src/img/blur/1.jpg", "title": "Foto 1", "description": "Estoy arrecha 🥵 y sé que te la pongo muy dura, jueguemos mientras vez mis Fotos 🥵!!!" },
+    { "id": "img2", "type": "image", "src": "src/img/blur/2.jpg", "title": "Foto 2", "description": "Descripción de la foto 2" },
+    { "id": "img3", "type": "image", "src": "src/img/blur/3.jpg", "title": "Foto 3", "description": "Descripción de la foto 3" },
+    { "id": "img4", "type": "image", "src": "src/img/blur/4.jpg", "title": "Foto 4", "description": "Descripción de la foto 4" },
+    { "id": "img5", "type": "image", "src": "src/img/blur/5.jpg", "title": "Foto 5", "description": "Descripción de la foto 5" },
+    { "id": "img6", "type": "image", "src": "src/img/blur/6.jpg", "title": "Foto 6", "description": "Descripción de la foto 6" },
+    { "id": "img7", "type": "image", "src": "src/img/blur/7.jpg", "title": "Foto 7", "description": "Descripción de la foto 7" },
+    { "id": "img8", "type": "image", "src": "src/img/blur/8.jpg", "title": "Foto 8", "description": "Descripción de la foto 8" },
+    { "id": "img9", "type": "image", "src": "src/img/blur/9.jpg", "title": "Foto 9", "description": "Descripción de la foto 9" },
+    { "id": "img10", "type": "image", "src": "src/img/blur/10.jpg", "title": "Foto 10", "description": "Descripción de la foto 10" },
+    { "id": "img11", "type": "image", "src": "src/img/blur/11.jpg", "title": "Foto 11", "description": "Descripción de la foto 11" },
+    { "id": "img12", "type": "image", "src": "src/img/blur/12.jpg", "title": "Foto 12", "description": "Descripción de la foto 12" },
+    { "id": "img13", "type": "image", "src": "src/img/blur/13.jpg", "title": "Foto 13", "description": "Descripción de la foto 13" },
+    { "id": "img14", "type": "image", "src": "src/img/blur/14.jpg", "title": "Foto 14", "description": "Descripción de la foto 14" },
+    { "id": "img15", "type": "image", "src": "src/img/blur/15.jpg", "title": "Foto 15", "description": "Descripción de la foto 15" },
+    { "id": "img16", "type": "image", "src": "src/img/blur/16.jpg", "title": "Foto 16", "description": "Descripción de la foto 16" },
+    { "id": "vid1", "type": "video", "src": "videos/video1.mp4", "title": "Video 1", "description": "Descripción del video 1" }
+]
